@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#183D32" />
+  <!-- Bridge / Arc of connection -->
+  <path d="M14 44 C24 30, 40 30, 50 44" stroke="#87966A" stroke-width="3" stroke-linecap="round" fill="none" />
+  <!-- Stylized hand gesture in warm white -->
+  <path d="M25 42V26C25 24.3 26.3 23 28 23C29.7 23 31 24.3 31 26V36" stroke="#FAF9F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 26V21C31 19.3 32.3 18 34 18C35.7 18 37 19.3 37 21V36" stroke="#FAF9F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 25C37 23.3 38.3 22 40 22C41.7 22 43 23.3 43 25V37" stroke="#FAF9F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 29C43 27.6 44.1 26.5 45.5 26.5C46.9 26.5 48 27.6 48 29V39C48 45 42 49 35 49H32C27 49 22 45 22 40V34C22 32.3 23.3 31 25 31" stroke="#FAF9F4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Key landmark points subtle accents -->
+  <circle cx="28" cy="23" r="1.5" fill="#87966A" />
+  <circle cx="34" cy="18" r="1.5" fill="#87966A" />
+  <circle cx="40" cy="22" r="1.5" fill="#87966A" />
+  <circle cx="45.5" cy="26.5" r="1.5" fill="#87966A" />
+</svg>

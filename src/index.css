@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pine: #183D32;
+  --color-pine-hover: #225344;
+  --color-pine-dark: #0f2720;
+  --color-olive: #87966A;
+  --color-olive-hover: #96a677;
+  --color-olive-dark: #6e7b54;
+  --color-warm: #FAF9F4;
+  --color-beige: #E9E0CF;
+  --color-beige-light: #F4EFE6;
+  --color-beige-dark: #DACDB6;
+  --color-dark: #252C27;
+  --color-muted: #72786F;
+  --color-muted-light: #9da39a;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF9F4;
+  color: #252C27;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle, functional scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DACDB6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #87966A;
+}
+
+/* Accessible focus indicators */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #87966A;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
